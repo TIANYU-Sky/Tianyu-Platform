@@ -26,12 +26,15 @@
 #define __PTV__ *	// 类型转换：指针→值
 #define __VTP__ &	// 类型转换：值→指针
 
+#define __OO__      // 用于模拟OO时使用的本地对象传入标签
 #define __IN__		// 输入参数标签
 #define __OT__		// 输出参数标签
 #define __IO__		// 输入输出参数标签
 
 #define __REQ__		// 请求方法标签
 #define __RSE__		// 回复方法标签
+
+#define NULL ((void __PTR__)0)
 
 // C++定义部分
 #ifdef __cplusplus
